@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <h1>Página de Estudos</h1>
+    <form method="get" action="envio_dados.php">
+        <input type="text" name="nome" placeholder="Digite seu nome">
+        <input type="email" name="email" placeholder="Digite seu e-mail">
+        <input type="submit" value="Enviar">
+    </form>
+    <form>
+        <input type="button" value="Clique aqui" onclick="msg()">"
+    </form>
+    <form>
+        <input type="checkbox" name="veiculo1" value="bicicleta"> Eu tenho uma bicicleta<br>
+        <input type="checkbox" name="veiculo2" value="carro"> Eu tenho um carro<br>
+        <input type="checkbox" name="veiculo3" value="moto"> Eu tenho uma moto<br>
+        Selecione sua cor favorita: <input type="color" name="favcor" value="#ff0000"> <br>
+        Data de nascimento: <input type="date" name="nascimento"> <br>
+        <input type="file" name="arquivo"> <br>
+        <input type="file" name="arquivo" multiple> <br>
+        Quantidade (entre 1 e 5): <input type="number" name="quantidade" min="1" max="5"> <br>
+        <input type="password" name="senha" placeholder="Digite sua senha">
+        <p>Qual sua idade?</p>
+        <input type="radio" name="idade" value="10-20"> 18_22"> 18 a 22 <br>
+        <input type="radio" name="idade" value="23-30"> 23 a 30 <br>
+        <input type="radio" name="idade" value="mais31"> acima de 31 <br>
+        Defina seu nível de satisfação: <br>
+        pouco satisfeito
+        <input type="range" name="satisfacao" min="0" max="10"> muito satisfeito
+    </form>
+    <form>
+        <label for="email">Digite seu e-mail:</label>
+        <input type="email" id="email" name="email" name="email"> <br><br>
+        <label for="pin">Digite seu código PIN:</label>
+        <input type="text" id="pin" name="pin" maxlength="4"> <br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+        Pesquisar: <input type="search" name="q"> <br>
+        Telefone: <input type="tel" name="usertel"> <br>
+        Link do seu WebSite: <input type="url" name="webpage"> <br>
+        <textarea>Area de texto com um texto inicial dentro</textarea> <br>
+        <select name="Lista" id="Lista">
+            <option>Selecione uma opção</option>
+            <option>Macarrão</option>
+            <option>Pizza</option>
+            <option>Nhoque</option>
+            <option>Canelone</option>
+        </select>
+        <fieldset>
+            <legend>Formulário</legend>
+            <form>
+                <input type="text" name="nome" placeholder="Digite seu nome">
+
+
+                </from>
+        </fieldset>
+
+
+
+
+
+    </form>
+
+
+</body>
+
+</html>
